@@ -54,6 +54,10 @@
 
 /**** WooCommerce Checkout */
 #payment ul.payment_methods .payment_method_bacs label img,
+#payment ul.payment_methods .payment_method_bank_transfer_1 label img,
+#payment ul.payment_methods .payment_method_bank_transfer_2 label img,
+#payment ul.payment_methods .payment_method_bank_transfer_3 label img,
+#payment ul.payment_methods .payment_method_bank_transfer_4 label img,
 #payment ul.payment_methods .payment_method_cheque label img,
 #payment ul.payment_methods .payment_method_mijireh_checkout label img,
 #payment ul.payment_methods .payment_method_paypal label img,
@@ -65,12 +69,16 @@
 #payment ul.payment_methods .payment_method_pbx > label img,
 #payment ul.payment_methods .payment_method_ClickAndBuy label img,
 #payment ul.payment_methods .payment_method_sofortgateway label img,
-#payment ul.payment_methods .payment_method_cash_on_delivery label img,
+#payment ul.payment_methods .payment_method_cod label img,
 #payment ul.payment_methods .payment_method_bitpay label img,
 #payment ul.payment_methods .payment_method_coinbase label img {
 	display:none;}
 
 #payment ul.payment_methods .payment_method_bacs > label:before,
+#payment ul.payment_methods .payment_method_bank_transfer_1 > label:before,
+#payment ul.payment_methods .payment_method_bank_transfer_2 > label:before,
+#payment ul.payment_methods .payment_method_bank_transfer_3 > label:before,
+#payment ul.payment_methods .payment_method_bank_transfer_4 > label:before,
 #payment ul.payment_methods .payment_method_cheque > label:before,
 #payment ul.payment_methods .payment_method_mijireh_checkout > label:before,
 #payment ul.payment_methods .payment_method_ccard > label:before,
@@ -85,7 +93,7 @@
 #payment ul.payment_methods .payment_method_ClickAndBuy > label:before,
 #payment ul.payment_methods .payment_method_sofortgateway > label:before,
 #payment ul.payment_methods .payment_method_sofortueberweisung > label:before,
-#payment ul.payment_methods .payment_method_cash_on_delivery > label:before,
+#payment ul.payment_methods .payment_method_cod > label:before,
 #payment ul.payment_methods .payment_method_bitpay > label:before,
 #payment ul.payment_methods .payment_method_coinbase > label:before {
 	display:inline;
@@ -105,8 +113,11 @@
 
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;}
-
-	#payment ul.payment_methods .payment_method_bacs > label:before {
+	#payment ul.payment_methods .payment_method_bacs > label:before,
+	#payment ul.payment_methods .payment_method_bank_transfer_1 > label:before,
+	#payment ul.payment_methods .payment_method_bank_transfer_2 > label:before,
+	#payment ul.payment_methods .payment_method_bank_transfer_3 > label:before,
+	#payment ul.payment_methods .payment_method_bank_transfer_4 > label:before  {
 		content:'\f005';}
 
 	#payment ul.payment_methods .payment_method_cheque > label:before {
@@ -141,7 +152,7 @@
 	#payment ul.payment_methods .payment_method_sofortueberweisung > label:before {
 		content:'\f03c';}
 
-	#payment ul.payment_methods .payment_method_cash_on_delivery > label:before {
+	#payment ul.payment_methods .payment_method_cod > label:before {
 		content:'\f00d';}
 
 	#payment ul.payment_methods .payment_method_bitpay > label:before,
